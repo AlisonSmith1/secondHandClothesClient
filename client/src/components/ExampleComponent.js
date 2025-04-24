@@ -18,7 +18,7 @@ function ExampleComponent() {
   return (
     <div>
       <h1>Backend Data:</h1>
-      <pre>{JSON.stringify(data, null, 2)}</pre> {/* 顯示後端資料 */}
+      <pre>console.log("ok")</pre> {/* 顯示後端資料 */}
     </div>
   );
 }
