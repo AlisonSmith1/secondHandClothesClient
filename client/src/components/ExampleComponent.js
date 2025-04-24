@@ -7,10 +7,10 @@ function ExampleComponent() {
 
   useEffect(() => {
     // 使用 fetch 向後端發送 GET 請求
-    fetch("https://secondhandclothesserve.onrender.com")
+    fetch("https://secondhandclothesserve.onrender.com/api/endpoint")
       .then((response) => response.json())
       .then((data) => {
-        setData(data); // 更新狀態，將後端資料儲存到狀態中
+        console.log(data); // 處理後端回傳的資料
       })
       .catch((error) => console.error("Error:", error));
   }, []); // 空陣列確保只有在組件加載時發送請求
