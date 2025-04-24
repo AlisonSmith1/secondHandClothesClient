@@ -14,10 +14,11 @@ import CommodityDetailComponent from "./components/commodityDetail-component";
 import EditComponent from "./components/edit-component";
 import EditDetailComponent from "./components/editDetail-component";
 import UpdateCommodityComponent from "./components/updateCommodity-component";
-import DeleteCommodityComponent from "./components/deleteCommodity-component";
+import ExampleComponent from "./components/ExampleComponent";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
+
   return (
     <BrowserRouter>
       <Routes>
@@ -111,6 +112,7 @@ function App() {
               />
             }
           />
+          <Route path="example" element={<ExampleComponent />} />
         </Route>
       </Routes>
     </BrowserRouter>
