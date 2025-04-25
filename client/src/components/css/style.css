@@ -4,6 +4,14 @@
   font-style: normal;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .bg-oneSection {
   background-image: url("../../../public/oneSection.jpg");
   background-size: cover;
@@ -26,7 +34,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 160vh;
+  min-height: 190vh;
 }
 
 .bg-fourSection {
