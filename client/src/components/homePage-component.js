@@ -4,7 +4,7 @@ import "./css/style.css";
 function homePageComponent() {
   return (
     <div className="bg-threeSection">
-      <div className="container py-5 " style={{ color: "white" }}>
+      <div style={{ color: "white", padding: 60 }}>
         <h2>輕鬆開始二手衣物買賣</h2>
         <p>
           二手衣物買賣不僅能幫助你省錢，還能為環境出一份力。以下是簡單的步驟，讓你快速上手。
