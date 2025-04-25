@@ -12,7 +12,7 @@ const NavComponent = ({ currentUser, setCurrentUser }) => {
   return (
     <div>
       <nav>
-        <nav className="navbar navbar-expand-lg fixed-top">
+        <nav className="navbar navbar-expand-lg ">
           <div className="container-fluid ">
             <button
               className="navbar-toggler"
@@ -27,7 +27,7 @@ const NavComponent = ({ currentUser, setCurrentUser }) => {
             </button>
 
             <div
-              className="collapse navbar-collapse"
+              className="collapse navbar-collapse fixed-top"
               id="navbarNav"
               style={{ backgroundColor: "#5C4434", height: "40px" }}
             >
